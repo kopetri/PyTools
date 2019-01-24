@@ -10,5 +10,5 @@ setuptools.setup(
     maintainer='Sebastian Hartwig',
     maintainer_email='sebastianhartwig@gmx.net',
     packages=setuptools.find_packages(),
-    install_requires=['numpy', 'opencv-python']
+    install_requires=['numpy', 'opencv-python', 'pyrr', 'PyOpenGL', 'PyQt5']
 )
